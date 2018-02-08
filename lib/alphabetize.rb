@@ -4,7 +4,7 @@ def alphabetize(arr)
   espAlp = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   arr.sort_by {|m|
     m
-    binding.pry
+    # binding.pry
   } #{ |a, b| espAlp.index(a) <=> espAlp.index(b) }
 
 end
