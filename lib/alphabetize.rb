@@ -1,4 +1,4 @@
 def alphabetize(arr)
   # code here
-  arr.sort_by { |a, b| a <=> b }
+  arr.sort { |a, b| a <=> b }
 end
