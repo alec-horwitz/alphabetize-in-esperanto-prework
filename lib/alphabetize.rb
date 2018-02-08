@@ -1,4 +1,8 @@
 def alphabetize(arr)
   # code here
-  arr.sort { |a, b| a <=> b }
+  espAlp = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  arr.each {||
+    .INDEX()
+  }
+  arr.sort { |a, b| espAlp.index(a) <=> espAlp.index(b) }
 end
